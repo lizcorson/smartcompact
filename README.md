@@ -7,7 +7,7 @@ I want to make a battery-powered, WiFi-connected smart mirror that you can carry
 ## Status
 Since Weather Underground wasn't working for me, I found an alternate weather API at worldweatheronline.com which sends a nice, simple CSV-formatted result. I have formatted it to get almost all the data I want. I still need to figure out how to calculate and display chance of precipitation.
 
-![alt tag](https://github.com/lizcorson/catdeterrent/blob/master/photos/weather print example.PNG)
+![alt tag](https://github.com/lizcorson/smartcompact/blob/master/photos/weather print example.PNG)
 
 Previously:
 
