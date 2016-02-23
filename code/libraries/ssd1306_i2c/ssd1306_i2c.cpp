@@ -37,7 +37,7 @@ SSD1306::SSD1306(int i2cAddress, int sda, int sdc)
 }
 
 void SSD1306::init() {
-  Wire.begin(mySda, mySdc);
+  Wire.begin();
   Wire.setClock(400000); 
   sendInitCommands();
   resetDisplay();
@@ -52,7 +52,7 @@ void SSD1306::resetDisplay(void)
 }
 
 void SSD1306::reconnect() {
-  Wire.begin(mySda, mySdc);  
+  Wire.begin();  
 }
 
 void SSD1306::displayOn(void)
